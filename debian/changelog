@@ -1,5 +1,69 @@
-template-repository (1.0-1) unstable; urgency=medium
+soapyairspy (0.2.0-4) unstable; urgency=medium
 
-  * Initial release
+  * Adapt d/watch to GitHub changes
+  * Bump Standards-Version to 4.6.2, no changes required
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Andreas Bombe <aeb@debian.org>  Thu, 07 Sep 2023 23:07:03 +0530
+
+soapyairspy (0.2.0-3) unstable; urgency=medium
+
+  * Upload to unstable
+
+ -- Andreas Bombe <aeb@debian.org>  Tue, 07 Sep 2021 00:35:58 +0200
+
+soapyairspy (0.2.0-2) experimental; urgency=medium
+
+  * Change SoapySDR ABI version in package names and dependencies from 0.7
+    to 0.8
+
+ -- Andreas Bombe <aeb@debian.org>  Sat, 28 Aug 2021 20:04:57 +0200
+
+soapyairspy (0.2.0-1) unstable; urgency=low
+
+  [ Andreas Bombe ]
+  * New upstream version 0.2.0
+  * Increase debhelper compat level to 13
+  * Add Rules-Requires-Root field to d/control
+  * Bump Standards-Version to 4.6.0, no changes required
+
+  [ Debian Janitor ]
+  * Set debhelper-compat version in Build-Depends.
+  * Use secure copyright file specification URI.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+ -- Andreas Bombe <aeb@debian.org>  Tue, 24 Aug 2021 22:20:32 +0200
+
+soapyairspy (0.1.2-2) unstable; urgency=medium
+
+  * Upload to unstable
+  * Bump Standards-Version to 4.4.1, no changes required
+
+ -- Andreas Bombe <aeb@debian.org>  Sun, 20 Oct 2019 16:38:52 +0200
+
+soapyairspy (0.1.2-1) experimental; urgency=medium
+
+  * New upstream version 0.1.2
+  * Change SoapySDR ABI version in package names and dependencies from 0.6
+    to 0.7
+  * Switch Vcs-* headers over to repositories on salsa.debian.org
+  * Increase debhelper compat level to 12
+  * Bump Standards-Version to 4.4.0, no changes required
+
+ -- Andreas Bombe <aeb@debian.org>  Mon, 23 Sep 2019 22:58:46 +0200
+
+soapyairspy (0.1.1-1) unstable; urgency=medium
+
+  * New upstream version 0.1.1
+  * Change SoapySDR ABI version in package names and dependencies from 0.5-2
+    to 0.6
+  * Build-Depend on versioned libsoapysdr0.6-dev instead of libsoapysdr-dev
+  * Bump Standards-Version to 4.0.1, no changes required
+
+ -- Andreas Bombe <aeb@debian.org>  Sun, 06 Aug 2017 18:55:19 -0400
+
+soapyairspy (0.1.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #847797)
+
+ -- Andreas Bombe <aeb@debian.org>  Mon, 12 Dec 2016 00:27:38 +0100

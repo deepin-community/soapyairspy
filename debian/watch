@@ -1,0 +1,2 @@
+version=4
+https://github.com/pothosware/SoapyAirspy/tags .*/soapy-airspy-([\d\.]+)\.tar\.(?:xz|gz|bz2)
